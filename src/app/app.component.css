@@ -60,55 +60,10 @@
     display: flex;
   }
 
-  .workExerciseCol {
-    display: grid;
-  }
-
-  .workContainer {
-    display: grid;
-  }
-
-  .exerciseContainer {
-  }
-
-  .workImgContainer {
-    background-color: hsl(15, 100%, 70%);
-    width: 220px;
-    overflow: hidden;
-    border-radius: 10px;
-    height: fit-content;
-  }
-
   .Img {
     height: 60px;
     margin-left: 150px;
     margin-top: -10px;
-  }
-
-  .workContentContainer {
-    display: grid;
-    background-color: hsl(235, 46%, 20%);
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: -110px;
-    height: fit-content;
-    margin-top: -35px;
-  }
-
-  .workHeadingContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .workHeadingContainer span {
-    font-size: 15px;
-    font-weight: 500;
-  }
-
-  .workContent {
-    display: grid;
-    margin-top: 20px;
   }
 
   .timespan {
