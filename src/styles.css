@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Rubik";
+  src: url("../src/fonts/Rubik-VariableFont_wght.ttf"),
+    url("../src/fonts/Rubik-Italic-VariableFont_wght.ttf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik";
+  background-color: hsl(226, 43%, 10%);
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+.hue-color {
+  color: hsl(236, 100%, 87%);
+}
+
+.white-color {
+  color: white;
+}
